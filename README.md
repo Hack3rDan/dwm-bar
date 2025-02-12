@@ -1,8 +1,6 @@
 # dwm-bar
-A modular statusbar for dwm
-# THIS PROJECT HAS A NEW HOME
-I no longer use this account for personal reasons, however this repo has been left up as an archive as to not break existing configs. This project can now be found on my [Codeberg](https://codeberg.org/pndaspace) account. I'd like to thank everyone who ever contributed here/used this project and I hope it has inspired your own work <3 - *Holly*
-![screenshot](https://raw.githubusercontent.com/hollystandring/dwm-bar/master/sshot.png)
+A modular statusbar for dwm. This is a fork of hollystandring/dwm-bar.
+![screenshot](https://raw.githubusercontent.com/Hack3rDan/dwm-bar/master/sshot.png)
 ## Table of Contents
 - [Installation](#installation)
 - [Configuration](#configuration)
@@ -40,7 +38,7 @@ I no longer use this account for personal reasons, however this repo has been le
 ## Installation
 1. Clone and enter the repository:
 ```
-git clone https://github.com/hollystandring/dwm-bar
+git clone https://github.com/Hack3rDan/dwm-bar
 cd dwm-bar
 ```
 2. (Optional) Install Dependencies from ```dep/YourDisto.txt```. This will install dependencies for ALL functions so consider excluding ones you do not plan to use. These can be found at the top of each bar function.
@@ -132,13 +130,13 @@ Displays battery level and status
 [🔋 100% full]
 ```
 ### dwm_countdown
-Displays the status of [countdown](https://github.com/hollystandring/countdown)
+Displays the status of [countdown](https://github.com/Hack3rDan/countdown)
 ```
 [⏳ 00:10:00]
 ```
 Dependencies: ```countdown.sh```
 ### dwm_alarm
-Displays upcoming alarms from [alarm](https://github.com/hollystandring/alarm)
+Displays upcoming alarms from [alarm](https://github.com/Hack3rDan/alarm)
 ```
 [⏰ 22:30:00]
 ```
